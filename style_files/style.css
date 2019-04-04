@@ -98,6 +98,10 @@ ul#nav li:nth-child(4) { margin: 0; }*/
   padding-top: 10px; 
 }
 
+#img-div img {
+  height: 81px;  
+}
+
 #description {
   height: 120px;
 }

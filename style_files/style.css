@@ -6,17 +6,18 @@ body {
   /*font-family: "Times New Roman", Times, serif;*/
 	/*font-family: Helvetica, Arial, Verdana, sans-serif; */
   /*font-family: Consolas, Monaco, monospace;*/
-  font-family: "Lucida Sans Unicode", "Lucida Grande", Arial, sans-serif;
+  /*font-family: "Lucida Sans Unicode", "Lucida Grande", Arial, sans-serif;*/
+  font-family: Arial, sans-serif;
 	background-color:#E8E9E9;
-  font-size: 14px;
+  font-size: 15px;
 }
 
-h1 { 
+h1 {
   /*font-family: Helvetica, Arial, Verdana, sans-serif; */
   /*font-family: "Lucida Sans Unicode", "Lucida Grande", Arial, sans-serif;*/
   font-size: 16px; 
-  /*font-weight: bold; */
-  font-weight: normal; 
+  font-weight: bold; 
+  /*font-weight: normal; */
   /*font-style: italic;*/
   margin: 32px 0 4px 0; 
 }
@@ -88,7 +89,8 @@ ul#nav li:nth-child(4) { margin: 0; }*/
   /*font-family: "Times New Roman", Times, serif;*/
   /*font-family: "Lucida Sans Unicode", "Lucida Grande", Arial, sans-serif;*/
   float: left; 
-  font-size: 20px;
+  font-size: 23px;
+  font-weight: bold; 
 }
 
 #title img {

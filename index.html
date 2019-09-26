@@ -14,7 +14,9 @@
     <!-- <div id="topbar"></div> -->
     <div>
       <div id="title">
-        <p class="name">Tao Hou&nbsp; (</p> <img src="./style_files/name.png" /> <p class="name">)</p>
+        <p class="name">Tao Hou&nbsp; <span style="font: bold 26px STKaiti ">(侯&nbsp;涛)</span></p>
+          <!-- (</p> <img src="./style_files/name.png" /> <p class="name">) -->
+        <!-- </p> -->
         <!-- <span style="font-family:STKaiti; font-size: 25px">侯&nbsp;涛</span> -->
       </div>
     </div>
@@ -24,38 +26,38 @@
       <li><a href="http://www3.cs.stonybrook.edu/~mikepo/#" id="sPublications" class="">Publications</a></li> -->
       <!-- <li><a href="https://waytofall.github.io/taohou-cv.pdf">Resume</a></li> -->
     </ul>
-    <!-- <hr class="thin"> -->
+    <hr class="thin">
   </div> <!-- header -->
   
   <!-- About -->
 	
-  <div class="section sAbout">
-	<div class="inner">
-		
-<div id="description">
+  <h1>About</h1>
 
-  <div id="img-div">
-    <img src="./style_files/taohou.png">
-  </div>
+  <div class="section sAbout">
+
+<!-- <hr class="thin"> -->
+
+<div id="description">
+  <!-- <div id="img-div"> -->
+  <img height="180px" src="./style_files/me_very_big.jpg">
+  <!-- </div> -->
 
   <div id="pers-info">
     <p>
-      <span itemprop="jobTitle">PhD Student</span><br>
+      <span itemprop="jobTitle">Ph.D. Student</span><br>
       <span>Computer Science and Engineering</span><br>
-      <span">The Ohio State University</span>
+      <span">The Ohio State University</span><br>
+      <span">e-mail: hou.332[at]osu.edu</span>
     </p>
-    <p>
-      e-mail: hou.332[at]osu.edu<br>
+    <!-- <p> -->
+      <!-- e-mail: hou.332[at]osu.edu<br> -->
       <!-- 355 Computer Science<br>
       Stony Brook University<br>
       Stony Brook, NY 11794-2424 -->
-    </p>
+    <!-- </p> -->
   </div>
 
 </div> <!--itemscope-->
-
-<h1>About</h1>
-<!-- <hr class="thin"> -->
 
 <p>
 I am a 4th year PhD student in the CSE department of OSU, advised by <a href="http://web.cse.ohio-state.edu/~dey.8/">Tamal K. Dey</a>. 
@@ -77,17 +79,16 @@ I received a B.E. degree in Software Engineering from Beijing Institute of Techn
 After I finished my master's degree, I went to work for 2 companies, Baidu and VMware.
 </p>
 
-	</div>
-	<br class="clear">
+	<!-- <br class="clear"> -->
 	</div>
 
 
   <!-- Teaching -->
-	
-<div class="section sTeaching">
-	<div class="inner">
 
 <h1>Teaching Assistant</h1>
+	
+<div class="section sTeaching">
+
 <!-- <hr class="thin"> -->
 
 <p>
@@ -98,15 +99,15 @@ After I finished my master's degree, I went to work for 2 companies, Baidu and V
 <span>CSE 2331: Data Structures &amp; Algorithms, Grader, Autumn 2016 </span>
 </p>
 
-	</div>
 	<!-- <br class="clear"> -->
-	</div>
+	</div> <!-- for <div class="section sTeaching">  -->
 
 
   <!-- Publications -->
 
+<h1>Publications</h1>
+
 <div class="section sPublications">
-	<div class="inner">
 
 <!-- <h1>Writings</h1>
 <hr class="thin"> -->
@@ -114,8 +115,6 @@ After I finished my master's degree, I went to work for 2 companies, Baidu and V
 <!-- <p>
 Here are something that I wrote concerning my research to help me understand the matrerials that I read: <a href="files/pers_homo.pdf">persistence homology</a>; <a href="files/construcible_cosheaf.pdf">constructible cosheaf</a>; <a href="files/morse.pdf">Morse function</a>. 
 </p> -->
-
-<h1>Publications</h1>
 <!-- <hr class="thin"> -->
 
 <!-- <div class="sPubItem">
@@ -145,21 +144,61 @@ Here are something that I wrote concerning my research to help me understand the
 </div> -->
 
 <div class="sPubItem">
-  <p>Tamal K. Dey, Tao Hou, and Sayan Mandal. <a href="https://arxiv.org/pdf/1907.04889.pdf">Computing Minimal Persistent Cycles: Polynomial and Hard Cases</a>. arXiv:1907.04889. Jul 2019.
-  </p>
+  <div class="sPubImg">
+    <img src="./img/pers-cyc-dual.png">
+  </div>
+  <div class="sPubText">
+    <a href="https://arxiv.org/pdf/1907.04889.pdf" style="font-weight: bold">
+      Computing Minimal Persistent Cycles: Polynomial and Hard Cases
+    </a><br/>
+    <span>
+      Tamal K. Dey, Tao Hou, and Sayan Mandal
+    </span><br/>
+    <span style="font-style: italic">
+      ACM-SIAM Symposium on Discrete Algorithms 2020, to appear
+    </span>
+  </div>
+</div>
   
-  <p>Tamal K. Dey, Tao Hou, and Sayan Mandal. <a href="https://arxiv.org/pdf/1810.04807.pdf">Persistent 1-Cycles: Definition, Computation, and Its Application.</a> 
-  In Computational Topology in Image Context - 7th International Workshop, CTIC 2019, M ́alaga, Spain, January 24-25, 2019, Proceedings, pages 123–136, 2019. 
-  [<a href="http://web.cse.ohio-state.edu/~dey.8/PersLoop/">webpage</a>]
-  </p>
-
-  <p>Tao Hou and Li Chen. <a href="files/otf-jov.pdf">On-the-fly simplification of large iso-surfaces with per-cube vertex modifiability detection.</a> Journal of Visualization 19.4 (2016): 715-726.</p>
+<div class="sPubItem">
+  <div class="sPubImg">
+    <img style="padding-top: 10px" src="./img/pers-1-cyc.png">
+  </div>
+  <div class="sPubText">
+    <a href="https://arxiv.org/pdf/1810.04807.pdf" style="font-weight: bold">
+      Persistent 1-Cycles: Definition, Computation, and Its Application
+    </a><br/>
+    <span>
+      Tamal K. Dey, Tao Hou, and Sayan Mandal
+    </span><br/>
+    <span style="font-style: italic">
+      Computational Topology in Image Context, International Workshop, 2019
+    </span><br/>
+    [<a href="http://web.cse.ohio-state.edu/~dey.8/PersLoop/">webpage</a>]
+  </div>
 </div>
 
-<div style="height:40px"></div>
+<div class="sPubItem">
+  <div class="sPubImg">
+    <img src="./img/otf.png">
+  </div>
+  <div class="sPubText">
+    <a href="files/otf-jov.pdf" style="font-weight: bold">
+      On-the-fly simplification of large iso-surfaces with per-cube vertex modifiability detection
+    </a><br/>
+    <span>
+      Tao Hou and Li Chen
+    </span><br/>
+    <span style="font-style: italic">
+      Journal of Visualization 19.4 (2016): 715-726
+    </span><br/>
+  </div>
+</div>
 
-	</div>
-	</div>
+
+<div style="height:60px; clear: both"></div>
+
+	</div> <!-- for <div class="section sPublications"> -->
 
 </div> 
 

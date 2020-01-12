@@ -102,7 +102,7 @@ ul#nav li:nth-child(4) { margin: 0; }*/
   /*font-family: "Lucida Sans Unicode", "Lucida Grande", Arial, sans-serif;*/
   float: left; 
   font-size: 23px;
-  font-weight: bold; 
+  font-weight: normal; 
   color: #303030;
 }
 
@@ -117,7 +117,7 @@ a.name-link:hover {
   font-family: STKaiti;
   float: left; 
   font-size: 25px;
-  font-weight: bold; 
+  font-weight: normal; 
   /*color: #527bbd;*/
 }
 
@@ -157,6 +157,7 @@ a.name-link:hover {
   font-family: "Times New Roman", Times, serif;
   font-style: italic; 
   font-size: 15px;
+  font-weight: 340;
   /*float: left; */
   padding-top: 3px; 
   /*padding-left: 20px; */

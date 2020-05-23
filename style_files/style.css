@@ -115,10 +115,9 @@ a.name-link:hover {
   /*font-family: Helvetica, Arial, Verdana, sans-serif; */
   /*font-family: "Times New Roman", Times, serif;*/
   /*font-family: "Lucida Sans Unicode", "Lucida Grande", Arial, sans-serif;*/
-  font-family: STKaiti;
-  float: left; 
+  font-family: STKaiti, KaiTi;
   font-size: 25px;
-  font-weight: normal; 
+  font-weight: bold; 
   /*color: #527bbd;*/
 }
 

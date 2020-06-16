@@ -5,28 +5,21 @@
 body {
   /*font-family: "Times New Roman", Times, serif;*/
 	font-family: Helvetica, Arial, Verdana, sans-serif; 
-  /*font-family: Lato, Sans-serif;*/
   font-weight: 340;
-  /*font-family: Consolas, Monaco, monospace;*/
-  /*font-family: "Lucida Sans Unicode", "Lucida Grande", Arial, sans-serif;*/
-  /*font-family: Arial, sans-serif;*/
-  /*font-family: Georgia, serif;*/
-	/*background-color:#E8E9E9;*/
-  background: #eaeae4;
+  /*background: #eaeae4;*/
   font-size: 15px;
   line-height: 1.4;
 }
 
 h1 {
-  /*font-family: Helvetica, Arial, Verdana, sans-serif; */
-  /*font-family: "Lucida Sans Unicode", "Lucida Grande", Arial, sans-serif;*/
   font-size: 18px; 
   /*font-weight: bold; */
   font-weight: normal; 
   /*font-weight: normal; */
   /*font-style: italic;*/
   margin: 32px 0 4px 0; 
-  color: #527bbd;
+  /*color: #527bbd;*/
+  color: #3E64A3;
 }
 p { margin-top: 13px; }
 a { 
@@ -56,13 +49,15 @@ hr.thin {
 	padding: 0;
 }
 
+#header-wrapper {
+  /*background: #eaeae4;*/
+  background: #efefef;
+}
+
 #header {
 	width: 900px;
 	height: 70px;
 	/*z-index: 1000;*/
-	/*width: 100%;*/
-/*	max-width: 888px;
-	min-width: 600px;*/
   padding: 40px 70px 0px 70px;
   margin: 0 auto;
 }
@@ -96,13 +91,11 @@ ul#nav li:nth-child(4) { margin: 0; }*/
 
 
 #title .name {
-  /*font-family: Helvetica, Arial, Verdana, sans-serif; */
-  /*font-family: "Times New Roman", Times, serif;*/
-  /*font-family: "Lucida Sans Unicode", "Lucida Grande", Arial, sans-serif;*/
   float: left; 
   font-size: 23px;
   font-weight: normal; 
-  color: #303030;
+  color: #3E64A3;
+  /*color: #325285;*/
   padding-right:20px;
 }
 
@@ -111,9 +104,6 @@ a.name-link:hover {
 }
 
 #title .name-chn {
-  /*font-family: Helvetica, Arial, Verdana, sans-serif; */
-  /*font-family: "Times New Roman", Times, serif;*/
-  /*font-family: "Lucida Sans Unicode", "Lucida Grande", Arial, sans-serif;*/
   font-family: STKaiti, KaiTi;
   font-size: 25px;
   font-weight: bold; 
@@ -166,8 +156,6 @@ a.name-link:hover {
   font-weight: 340;
   /*float: left; */
   padding-top: 3px; 
-  /*padding-left: 20px; */
-  /*padding-right: 30px*/
 }
 
 .section {

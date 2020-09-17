@@ -18,8 +18,7 @@ h1 {
   /*font-weight: normal; */
   /*font-style: italic;*/
   margin: 32px 0 4px 0; 
-  /*color: #527bbd;*/
-  color: #3E64A3;
+  color: #4E78BC;
 }
 p { margin-top: 13px; }
 a { 
@@ -51,14 +50,14 @@ hr.thin {
 
 #header-wrapper {
   /*background: #eaeae4;*/
-  background: #efefef;
+  background: #f8f8f8;
 }
 
 #header {
 	width: 900px;
-	height: 70px;
+	height: 55px;
 	/*z-index: 1000;*/
-  padding: 40px 70px 0px 70px;
+  padding: 20px 70px 0px 70px;
   margin: 0 auto;
 }
 
@@ -94,8 +93,8 @@ ul#nav li:nth-child(4) { margin: 0; }*/
   float: left; 
   font-size: 23px;
   font-weight: normal; 
-  color: #3E64A3;
-  /*color: #325285;*/
+  /*color: #3E64A3;*/
+  color: #777;
   padding-right:20px;
 }
 

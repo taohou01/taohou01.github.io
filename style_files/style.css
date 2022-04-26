@@ -223,6 +223,14 @@ a.name-link:hover {
   line-height: 1.6;
 }
 
+.sPubTextCmt {
+  width: 750px;
+  float: right;
+  margin-top: 5px;
+  padding-left: 10px;
+  line-height: 1.6;
+}
+
 .sPubImg {
   width: 110px;
   float: left;

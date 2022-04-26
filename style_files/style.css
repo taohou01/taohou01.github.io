@@ -228,7 +228,9 @@ a.name-link:hover {
   float: right;
   margin-top: 5px;
   padding-left: 10px;
-  line-height: 1.6;
+  /*line-height: 1.6;*/
+  color: gray;
+  font-style: italic;
 }
 
 .sPubImg {

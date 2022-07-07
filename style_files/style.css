@@ -9,6 +9,7 @@ body {
   /*background: #eaeae4;*/
   font-size: 15px;
   line-height: 1.4;
+  background: #a2a2a2;
 }
 
 h1 {
@@ -23,8 +24,8 @@ h1 {
 p { margin-top: 13px; }
 a { 
   text-decoration: none; 
-  /*color: #0799AD;*/
   color: #c7137c;
+  /*color: #0053a6;*/
 }
 a:hover { text-decoration: underline; }
 
@@ -39,6 +40,10 @@ hr.thin {
   margin-bottom: 16px;
 } 
 
+.pre-post {
+  height: 70px;
+}
+
 #container {
   width: 800px;
   /*min-width: 600px;*/
@@ -50,7 +55,6 @@ hr.thin {
 
 #header-wrapper {
   /*background: #eaeae4;*/
-  background: #f8f8f8;
 }
 
 #header {
@@ -59,6 +63,11 @@ hr.thin {
 	/*z-index: 1000;*/
   padding: 20px 70px 0px 70px;
   margin: 0 auto;
+  background: #f8f8f8;
+}
+#header-line {
+  height: 1px;
+  background: #a2a2a3;
 }
 
 #topbar {

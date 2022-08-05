@@ -182,6 +182,19 @@ a.name-link:hover {
 
 /* Sections */
 
+.sAnnouncement ul {
+  padding-left: 15px;
+  font-weight: normal;
+}
+
+.sAnnouncement li {
+  padding-top: 10px;
+}
+
+.sAnnouncement a {
+  font-weight: 340;
+}
+
 .sAbout {
   top: 56px;
 	/*background: #E8E9E9;*/

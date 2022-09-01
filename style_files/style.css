@@ -156,7 +156,7 @@ a.name-link:hover {
 
 #description #pers-info {
   font-family: "Times New Roman", Times, serif;
-  font-style: italic; 
+  font-style: normal; 
   font-size: 17px;
   font-weight: 340;
   /*float: left; */

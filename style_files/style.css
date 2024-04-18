@@ -186,12 +186,12 @@ a.name-link:hover {
 
 /* Sections */
 
-.sAnnouncement ul {
-  padding-left: 15px;
+.section ul {
+  padding-left: 20px;
   font-weight: normal;
 }
 
-.sAnnouncement li {
+.section li {
   padding-top: 10px;
 }
 

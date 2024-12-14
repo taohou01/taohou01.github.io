@@ -67,7 +67,7 @@ hr.thin {
 	/*z-index: 1000;*/
 /*  padding: 20px 70px 0px 70px;*/
 /*  margin: 0 auto;*/
-  padding-top: 25px;
+  padding-top: 15px;
 /*  background: #f8f8f8;*/
   float: left;
 }
@@ -134,7 +134,7 @@ a.name-link:hover {
 }
 
 #title .name-chn {
-  font-family: STKaiti, KaiTi;
+  font-family: STKaiti, KaiTi, SimSun;
   font-size: 30px;
   font-weight: bold; 
   /*color: #527bbd;*/

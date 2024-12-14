@@ -55,15 +55,33 @@ hr.thin {
 
 #header-wrapper {
   /*background: #eaeae4;*/
+  width: 900px;
+  background: #f8f8f8;
+  padding: 20px 70px 20px 70px;
+  margin: 0 auto;
 }
 
 #header {
-	width: 900px;
-	height: 55px;
+	width: 300px;
+/*	height: 55px;*/
 	/*z-index: 1000;*/
-  padding: 20px 70px 0px 70px;
-  margin: 0 auto;
-  background: #f8f8f8;
+/*  padding: 20px 70px 0px 70px;*/
+/*  margin: 0 auto;*/
+  padding-top: 25px;
+/*  background: #f8f8f8;*/
+  float: left;
+}
+#signature {
+  text-align: right;
+  width: 400px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+/*  width: 900px;*/
+/*  padding: 0px 70px 20px 70px;*/
+/*  margin: 0 auto;*/
+/*  background: #f8f8f8;*/
+  color: #b9b9b9;
+  float: right;
 }
 #header-line {
   height: 1px;
@@ -100,7 +118,7 @@ ul#nav li:nth-child(4) { margin: 0; }*/
 
 #title a.name {
   float: left; 
-  font-size: 23px;
+  font-size: 30px;
   font-weight: normal; 
   /*color: #3E64A3;*/
   color: #777;
@@ -117,7 +135,7 @@ a.name-link:hover {
 
 #title .name-chn {
   font-family: STKaiti, KaiTi;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold; 
   /*color: #527bbd;*/
 }

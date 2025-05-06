@@ -21,7 +21,7 @@ st.expansion(3)
 print("number of simplices after expansion: " + str(st.num_simplices()))
 
 pd = st.persistence()
-# pd1 = [x for x in pd if x[0] == 1] # pd in dim 1
+# pd = [x for x in pd if x[0] == 1] # pd in dim 1
 
 ax = gudhi.plot_persistence_diagram(persistence=pd)
 ax.set_title(f"Persistence diagram of {off_file}")

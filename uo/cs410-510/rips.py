@@ -1,7 +1,7 @@
 import gudhi
 import matplotlib.pyplot as plt
 import numpy as np
-import pprint
+# import pprint
 
 off_file = "dtorus.off"
 
@@ -12,10 +12,10 @@ print("number of points: " + str(len(pc)))
 rips_complex = gudhi.RipsComplex(points=pc)
 
 st = rips_complex.create_simplex_tree(max_dimension=1)
-print("number of simplices before collapse: " + str(st.num_simplices()))
+print("number of edges before collapse: " + str(st.num_simplices()))
 
 st.collapse_edges()
-print("number of simplices after collapse: " + str(st.num_simplices()))
+print("number of edges after collapse: " + str(st.num_simplices()))
 
 st.expansion(3)
 print("number of simplices after expansion: " + str(st.num_simplices()))

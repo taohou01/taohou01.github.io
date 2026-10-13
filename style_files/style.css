@@ -279,7 +279,7 @@ a.name-link:hover {
 .sPubImg {
   width: 110px;
   float: left;
-  /*padding-bottom: 20px;*/
+  padding-top: 5px;
 }
 
 .sPubImg img {
